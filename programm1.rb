@@ -9,8 +9,9 @@
 end
 
 
-puts 'Enter the string and the key'
+puts 'Enter the string'
 text = gets.chomp
+puts 'Enter the key'
 key = Integer(gets)
 
 puts caesar_cipher(text, key)
